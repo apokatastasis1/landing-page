@@ -1,0 +1,58 @@
+*{border: solid black 1px;}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    
+    
+    justify-content: space-around;
+    
+}
+
+.content{
+    width: 400px;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.hero{
+    display:flex ;
+    flex:1;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    
+    
+    
+}
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+}
+
+img{
+    max-width: 500px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
