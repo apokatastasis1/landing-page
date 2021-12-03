@@ -42,6 +42,7 @@ body{
 .second-text{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
     
 }
 .hero{
@@ -62,7 +63,7 @@ button{
     
   background: #3882F6;
   border: 1px solid royalblue;
-  border-radius: 10%;
+  border-radius: 5px;
   padding: 6px 20px;
   font-weight: 600;
   color: white;
@@ -70,9 +71,7 @@ button{
 
 
 
-.sign-up-button{
-    
-}
+
 
 .header-hero{
     display: flex;
@@ -95,6 +94,12 @@ ul {
     list-style-type: none;
     gap:12px;
 }
+
+li:hover a{
+    color: red;
+    
+}
+
 a{
     text-decoration: none;
     color: #E5E7EB;
@@ -173,6 +178,7 @@ a{
 
 .call-container{
     display:flex;
+    flex:1;
     justify-content: center;
     padding: 70px 0px;
     
@@ -190,7 +196,8 @@ a{
     
 }
 
-.call-to-action{
+.call-to-action,
+.footer-text{
     
     color: white;
 }
@@ -204,4 +211,12 @@ a{
 .button-container{
     border: solid white 2px;
     border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    background-color: #1F2937;
 }
