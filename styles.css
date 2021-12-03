@@ -9,6 +9,8 @@ body{
     
 }
 
+
+
 .header-logo{
     font-size: 24px;
     font-weight: 600;
@@ -22,7 +24,7 @@ body{
     padding: 0px 30px;
     
     justify-content: space-between;
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
     
 }
 
@@ -52,6 +54,8 @@ body{
     
     
     
+    
+    
 }
 
 button{
@@ -67,7 +71,10 @@ button{
 .header-hero{
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+
+   background-image: url("./images/christmas-6809681.png");
+   box-shadow: inset 0 0 0 50vw rgba(38, 31, 80, 0.3);
+    
     
     height: 100vh;
 }
@@ -100,6 +107,7 @@ a{
 
 .info{
     width: 200px;
+    height: 300px;
  
 }
 .title{
@@ -117,6 +125,7 @@ a{
 
 
 .container img{
+    
     
     border: solid royalblue 4px;
     border-radius: 10%;
