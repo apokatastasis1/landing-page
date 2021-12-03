@@ -60,12 +60,18 @@ body{
 
 button{
     
-  background: royalblue;
+  background: #3882F6;
   border: 1px solid royalblue;
   border-radius: 10%;
   padding: 6px 20px;
   font-weight: 600;
   color: white;
+}
+
+
+
+.sign-up-button{
+    
 }
 
 .header-hero{
@@ -163,4 +169,39 @@ a{
     margin-top: 20px;
     
     
+}
+
+.call-container{
+    display:flex;
+    justify-content: center;
+    padding: 70px 0px;
+    
+}
+
+.call-second-container{
+    display: flex;
+    padding: 30px 60px;
+    width: 60vw;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    
+}
+
+.call-to-action{
+    
+    color: white;
+}
+
+.call-to-action .text1{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.button-container{
+    border: solid white 2px;
+    border-radius: 5px;
 }
