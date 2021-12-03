@@ -7,6 +7,7 @@ body{
     margin: 0px;
     
     
+    
 }
 
 
@@ -17,6 +18,8 @@ body{
     color: #F9FAF8;
     
 }
+
+
 
 .header{
     display: flex;
@@ -122,11 +125,25 @@ a{
  
 }
 .title{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 36px;
     font-weight: 900;
+    width: 60vw;
+    height: 45px;
     color: #1F2937;
-    padding: 50px;
+    margin-bottom: -5px;
+    border-bottom: solid rgba(128, 128, 128, 0.233) 2px;
+   
+    
+}
+
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 .container .text{
@@ -149,10 +166,12 @@ a{
 
 .quote-container{
     display: flex;
+    
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
     height: 180px;
+    
     justify-content: center;
     padding: 40px;
 }
